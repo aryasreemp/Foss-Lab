@@ -1,0 +1,46 @@
+<html>
+<style>
+
+body {
+height: 100vh;
+text-align: center;
+}
+
+* {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+.form-container {
+	text-align: center;
+	position: relative;
+}
+
+form {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+</style>
+<body bgcolor="#FFFFFF">
+<div style = "background-color:#333333; color:#FFFFFF; height: 100%" class="form-container">
+<center><h1>SignIn</h1></center>
+<form action="logindb.php" method="POST">
+    <center><label>Email</label>
+    <input type="text" name="email">
+    <br>
+    <br>
+    <label>Password</label>
+    <input type="password" name="password">
+    <br>
+    <br>
+    <button type="submit">Submit</button></center>
+</form>
+</div>
+</body>
+</html>
+
+
+ 
